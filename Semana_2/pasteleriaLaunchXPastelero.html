@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link href="./pasteleriaLaunchX.css" rel="stylesheet">
+    <!-- DOCS https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+
+    <title>Pastelería Launch X</title>
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-pink">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 text-white">Pastelería Launch X <i class="bi bi-arrow-through-heart-fill"></i></span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h2 class="text-center text-pink">Hola pastelero</h2>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-6 text-center">
+                        <h3>Sabores restantes:</h3>
+                        <p>Chocolate: <b>120</b></p>
+                        <p>Vainilla: <b>127</b></p>
+                        <p>Limón: <b>162</b></p>
+                        <p>Fresa: <b>192</b></p>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <h3>Adornos restantes:</h3>
+                        <p>Chocolate fundido <b>59</b></p>
+                        <p>Glaseado <b>20</b></p>
+                        <p>Betún <b>87</b></p>
+                        <p>Frutos <b>10</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Pedido #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <b>Nombre:</b> Juan Francisco<br />
+                                    <b>Teléfono:</b> 4567845678<br />
+                                    <b>Correo:</b> juan.fran@correo.com<br />
+                                    <b>Descripción:</b> Con ojuelas de maiz porfavor.<br />
+                                    <b>Sabores:</b> Chocolate y Fresa.<br />
+                                    <b>Adornos:</b> Betún
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Pedido #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <b>Nombre:</b> Diego Ortiz<br />
+                                    <b>Teléfono:</b> 4567845678<br />
+                                    <b>Correo:</b> die.ort@correo.com<br />
+                                    <b>Descripción:</b> Con splenda en lugar de azucar.<br />
+                                    <b>Sabores:</b> Limón<br />
+                                    <b>Adornos:</b> Frutos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Pedido #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <b>Nombre:</b> Juan Perez<br />
+                                    <b>Teléfono:</b> 4567845678<br />
+                                    <b>Correo:</b> juan.prz@correo.com<br />
+                                    <b>Descripción:</b> <br />
+                                    <b>Sabores:</b> Vainilla<br />
+                                    <b>Adornos:</b> Frutos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><span class="nav-link px-2 text-muted">Dirección: Cierra Laurel 345,
+                            México</span></li>
+                    <li class="nav-item"><span class="nav-link px-2 text-muted">Teléfono: 456356734</span></li>
+                    <li class="nav-item"><span class="nav-link px-2 text-muted">Horarios: Lun - Vie 7:00 - 10:00</span>
+                    </li>
+                </ul>
+                <p class="text-center text-muted">© 2021 Pasteleria, Launch X</p>
+            </footer>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
