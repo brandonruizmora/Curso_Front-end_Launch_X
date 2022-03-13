@@ -1,0 +1,67 @@
+.text-blue-page {
+    color: #2d4dcb;
+}
+
+.text-blue-navy-page {
+    color: #1f3e72;
+}
+
+.text-blue-gray-page {
+    color: #738097;
+}
+
+.text-yellow-page {
+    color: #ffd012;
+}
+
+.bg-blue-page {
+    background-color: #2d4dcb;
+}
+
+.bg-yellow-translucid {
+    background-color: rgba(255, 208, 18, 0.1);
+}
+
+.bg-blue-translucid {
+    background-color: rgba(45, 77, 203, 0.1);
+}
+
+.bg-white-translucid {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (min-width: 768px) {
+    .container-form {
+        position: absolute;
+        z-index: 1;
+        width: 65%;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-form {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        margin-top: 200px;
+    }
+}
+
+.opacity-1 {
+    opacity: 0.5;
+}
+
+.box-shadow:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary-page {
+    background-color: rgba(45, 77, 203, 0.1);
+    color: #2d4dcb;
+}
+
+.btn-primary-page:hover {
+    background-color:  #2d4dcb;
+    color: #FFF;
+}
